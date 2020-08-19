@@ -1,0 +1,352 @@
+body   
+
+{
+background: url("grotte.jpg"); 
+}
+
+
+nav
+{
+color: white;
+border: 10px yellow dashed;
+width: 90%;
+margin: auto;
+font-size: 30px;
+}
+
+nav p a 
+{
+display: inline-block;
+width: 300px;
+background: navy;
+border: 3px solid yellow;
+border-radius: 30px / 10px;
+}
+
+
+#barre_de_recherche
+{
+margin-top: 20px;
+color: yellow;
+text-align: right;
+}
+
+
+.infos
+{
+text-align: right;
+}
+
+
+h1 
+{
+color: yellow; 
+font-size: 2.2em; 
+text-align: center;
+background-color: navy;
+border: 5px yellow solid;
+border-radius: 30px / 10px;
+box-shadow: 3px 3px 2px yellow;
+text-shadow: 2px 2px 1px yellow;
+width: 70%;
+margin: auto;
+text-transform: uppercase;
+opacity: 0.8;
+}
+
+h3
+{
+color: yellow; 
+font-size: 16px; 
+font-style: italic;
+text-align: center;
+font-weight: bold;
+font-family: Luminari, fantasy;
+text-decoration: underline;
+}
+
+h3:hover
+{
+border-left: 6px solid yellow;
+}
+
+	
+#stagiaire
+{
+color: red;
+}
+
+.introduction
+{
+font-weight: bold;
+}
+
+h4 mark
+{
+color: blue;
+}
+
+p
+{
+text-align: center;
+vertical-align: middle;
+font-family: Arial;
+font-weight: bold;
+color: white;
+}
+
+.flottant
+{
+float: left;
+}
+
+.autreparagraphe
+{
+clear: left;
+}
+
+figcaption
+{
+color: black;
+}
+
+ol, li
+{
+color: yellow;
+font-family: Arial;
+list-style-type: none;
+text-align: justify;
+font-weight: bold;
+line-height: 25px;
+}
+
+h4
+{
+text-align: left;
+ color: yellow;
+ font-family: Blippo, fantasy;
+ font-size: 26px;
+}
+
+h4:hover
+{
+border-left: 6px solid yellow;
+}	
+
+figure
+{
+margin: auto;
+}
+
+a
+{
+color: yellow;
+}
+
+
+a:hover
+{
+color: red;
+}
+
+
+
+
+.banniere_citation
+{
+font-size: 42px;
+font-family: Brush Script MT, fantasy;
+position: absolute;
+padding-left: 50px;
+color: snow;
+top: 0;
+height: 50px;
+}
+
+.banniere_image
+{
+background: url("chon1.jpg") no-repeat;
+height: 400px;
+margin-bottom: 25px;
+position: relative;
+background-position: center;
+filter: drop-shadow(0 10px 40px red) contrast(200%) opacity(80%);
+}
+
+
+
+footer
+{
+color: yellow;
+font-size: 18px;
+font-weight: bold;
+margin-top: 60px; 
+}
+
+footer p 
+{
+text-align: justify;
+border: 2px yellow solid;
+width: 25%;
+margin: auto;
+overflow: auto;
+height: 50px;
+}
+
+hr
+{
+border-top: 3px double yellow;
+color: yellow;
+}
+
+#conteneur
+{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+height: 250px;
+align-items: center;
+}
+
+.element:nth-child(1)
+{
+order: 2;
+}
+
+.element:nth-child(2)
+{
+order: 1;
+}
+
+td
+{
+border: 2px solid yellow;
+font-size: 20px;
+text-align: center;
+color: white;
+}
+
+table
+{
+border-collapse: collapse;
+width: 70%;
+margin: auto;
+}
+
+th
+{
+	border: 2px solid yellow;
+	font-size: 25px;
+	color:yellow; 
+	height: 50px;
+}
+
+caption
+{
+	font-weight: bold;
+	font-size: 40px;
+	color: yellow;
+	text-shadow:3px 3px 2px yellow;
+	border: 3px navy solid;
+	border-radius: 30px;
+	background-color: navy;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+#partie_employeur
+{
+font-size:30px;
+margin-top: 70px;
+border: 3px navy solid;
+border-radius: 30px;
+background-color: navy;
+}
+
+fieldset
+{
+width: 40%;
+margin: auto;
+text-align: justify;
+color: yellow;
+}
+
+fieldset p
+{
+text-align: justify;
+}
+
+
+fieldset textarea
+{
+color: yellow;
+}
+
+label.bulle
+{
+display: block;
+text-align: center;
+}
+
+legend
+{
+text-align: center;
+color: yellow;
+font-weight: bold;
+font-size: 20px;
+text-decoration: underline;
+}
+
+video
+{
+display: block;
+margin: auto;
+}
+
+@media all and (max-width: 1000px)
+{
+	nav p a
+	{
+		display: column;
+	}
+}
+
+ @media all and (max-width: 1000px)
+{
+	.flottant
+	{
+		display: none;
+	}
+}
+	
+@media all and (max-width: 1000px)
+{
+	table
+	{
+		margin-left: 4px;
+	}
+}
+	
+@media all and (max-width: 1000px)
+{
+	p
+	{
+		text-align: justify;
+		color: white;
+	}
+}
+
+@media all and (maw-width: 1000px)
+{
+	#banniere_image
+	{
+		background: none;
+	}
+	
+}
+
+
+
+
+	
