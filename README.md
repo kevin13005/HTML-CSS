@@ -12,4 +12,6 @@ INSTALLATION :
 
 - RUN IN LOCAL :
 
-- Get the project -->
+- Get the project --> https://github.com/kevin13005/projet_HTML-CSS.git
+- Go in your directory project
+- Push on index.html files
