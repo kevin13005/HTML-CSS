@@ -1,6 +1,6 @@
 TUTORIAL :
 
-- First project as web developer done.
+- First project as web developer using HTML and CSS.
 
 
 LINK WEBSITE :
