@@ -5,7 +5,7 @@ TUTORIAL :
 
 LINK WEBSITE :
 
-https://kevin13005.github.io/projet_HTML-CSS/
+https://kevin13005.github.io/HTML-CSS/
 
 
 INSTALLATION :
