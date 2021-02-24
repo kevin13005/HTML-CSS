@@ -11,6 +11,6 @@ https://kevin13005.github.io/HTML-CSS/
 INSTALLATION :
 
 
-- Get the project --> https://github.com/kevin13005/projet_HTML-CSS.git
+- Get the project --> https://github.com/kevin13005/HTML-CSS.git
 - Go in your directory project
 - Push on index.html files
